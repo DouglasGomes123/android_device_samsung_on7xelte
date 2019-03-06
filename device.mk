@@ -23,6 +23,21 @@ TARGET_SPECIFIC_HEADER_PATH += $(LOCAL_PATH)/include
 # Manifest
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/manifest.xml:system/vendor/manifest.xml
+    
+# Telephony
+PRODUCT_PACKAGES += \
+    qti-telephony-common \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
+    
+# Boot Animation
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
+
+# Build Type
+export HAVOC_BUILD_TYPE=Official
 
 # include splitted configs
 -include $(LOCAL_PATH)/product/*.mk

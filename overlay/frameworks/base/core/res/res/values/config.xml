@@ -45,4 +45,12 @@
 
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">true</bool>
+	
+	    <!-- Whether device supports an alt. ambient display -->
+    <bool name="config_alt_ambient_display">true</bool>
+	
+	<!-- enable home button wake on aex -->
+    <bool name="config_HomeWakeButton">true</bool>
+	
+	<bool name="doze_display_state_supported">true</bool>
 </resources>
