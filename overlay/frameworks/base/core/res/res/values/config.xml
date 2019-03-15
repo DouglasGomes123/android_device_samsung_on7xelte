@@ -60,10 +60,10 @@
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
     <bool name="config_intrusiveNotificationLed">true</bool>
 	
-	<!-- Whether device supports an alt. ambient display -->
+    <!-- Whether device supports an alt. ambient display -->
     <bool name="config_alt_ambient_display">true</bool>
 	
-	  <!-- AlwaysOnDisplay  -->
+    <!-- AlwaysOnDisplay  -->
     <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
      
     <!-- Control whether the always on display mode is enabled by default. This value will be used
@@ -73,11 +73,14 @@
     <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
     <bool name="config_displayBlanksAfterDoze">true</bool>
 	
-	<!-- Button Backlight -->
+    <!-- Button Backlight -->
     <bool name="config_button_brightness_support">true</bool> 
 	
-	<!-- enable home button wake on aex -->
+    <!-- enable home button wake on aex -->
     <bool name="config_HomeWakeButton">true</bool>
 	
-	<bool name="doze_display_state_supported">true</bool>
+    <bool name="doze_display_state_supported">true</bool>
+	
+    <!-- Enable Smart Pixels --> 
+    <bool name="config_enableSmartPixels">true</bool>
 </resources>
