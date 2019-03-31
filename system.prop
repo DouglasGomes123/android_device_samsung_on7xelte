@@ -17,8 +17,4 @@ ro.product.first_api_level=23
 
 # Wifi
 wifi.direct.interface=p2p-dev-wlan0
-
-# Maintainer
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.havoc.maintainer=Douglas Gomes
 	

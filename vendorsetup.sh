@@ -1,1 +1,1 @@
-add_lunch_combo havoc_on7xelte-userdebug
+add_lunch_combo liquid_on7xelte-userdebug

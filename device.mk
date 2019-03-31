@@ -36,9 +36,6 @@ PRODUCT_BOOT_JARS += \
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
-# Build Type
-export HAVOC_BUILD_TYPE=Official
-
 # include splitted configs
 -include $(LOCAL_PATH)/product/*.mk
 
