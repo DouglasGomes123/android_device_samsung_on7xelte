@@ -33,5 +33,8 @@ BOARD_SEPOLICY_DIRS += device/samsung/on7xelte/sepolicy
 # Properties
 TARGET_SYSTEM_PROP += $(LOCAL_PATH)/system.prop
 
+# TARGET_PREBUILT_INT_KERNEL := $(KERNEL_OUT)/arch/$(KERNEL_ARCH)/boot/$(BOARD_KERNEL_IMAGE_NAME)
+TARGET_PREBUILT_INT_KERNEL := $(KERNEL_SRC)/$(BOARD_KERNEL_IMAGE_NAME)
+
 # Inherit from the proprietary version
 -include vendor/samsung/on7xelte/BoardConfigVendor.mk
