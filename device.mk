@@ -47,3 +47,7 @@ $(call inherit-product, device/samsung/exynos7870-common/device-common.mk)
 
 # call the proprietary setup
 $(call inherit-product, vendor/samsung/on7xelte/on7xelte-vendor.mk)
+
+# Trust HAL
+PRODUCT_PACKAGES += \
+    vendor.lineage.trust@1.0-service
